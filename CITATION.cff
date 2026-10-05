@@ -13,10 +13,16 @@ type: software
 authors:
   - family-names: "Sulakvelidze"
     given-names: "Nata"
+    email: "nsulakvelidze@g3dprinting.com"
+    affiliation: "G3D LLC"
+  - family-names: "Kuparadze"
+    given-names: "Anzori"
+    email: "akuparadze@g3dprinting.com"
+    affiliation: "G3D LLC"
 repository-code: "https://github.com/Okami29/simtwin"
 license: MIT
-version: "0.1.0"
-date-released: "2026-10-05"
+version: "0.1.1"
+date-released: "2026-10-06"
 keywords:
   - digital twin
   - additive manufacturing
@@ -33,6 +39,12 @@ references:
     authors:
       - family-names: "Sulakvelidze"
         given-names: "Nata"
+        email: "nsulakvelidze@g3dprinting.com"
+        affiliation: "G3D LLC"
+      - family-names: "Kuparadze"
+        given-names: "Anzori"
+        email: "akuparadze@g3dprinting.com"
+        affiliation: "G3D LLC"
     repository-code: "https://github.com/Okami29/simtwin"
-    version: "0.1.0"
+    version: "0.1.1"
     license: MIT
