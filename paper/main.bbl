@@ -1,0 +1,397 @@
+\begin{thebibliography}{49}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alatram et~al.(2023)Alatram, Sikos, Johnstone, Szewczyk, and
+  Kang]{cunha2023dosmqtt}
+Alaa Alatram, Leslie~F. Sikos, Mike Johnstone, Patryk Szewczyk, and James~Jin
+  Kang.
+\newblock {DoS/DDoS-MQTT-IoT: A dataset for evaluating intrusions in IoT
+  networks using the MQTT protocol}.
+\newblock \emph{Computer Networks}, 231:\penalty0 109809, 2023.
+\newblock \doi{10.1016/j.comnet.2023.109809}.
+
+\bibitem[Alhazmi et~al.(2024)Alhazmi, Azzedin, and Hammoudeh]{mtdn2024}
+Turki Alhazmi, Farag Azzedin, and Mohammad Hammoudeh.
+\newblock {MQTT Based Data Distribution Framework for Digital Twin Networks}.
+\newblock In \emph{Proceedings of the 8th International Conference on Future
+  Networks \&amp; Distributed Systems}, pages 1008--1013. ACM, 2024.
+\newblock \doi{10.1145/3726122.3726269}.
+
+\bibitem[Aznar~Lapuente et~al.(2026)Aznar~Lapuente, Morella~Avinzano,
+  Lamban~Castillo, and Seneviratne]{aznar2026dtm}
+Gabriel Aznar~Lapuente, Paula Morella~Avinzano, Maria~Pilar Lamban~Castillo,
+  and Dammika Seneviratne.
+\newblock {Methodologies in digital twin for manufacturing industry: A
+  systematic literature review}.
+\newblock \emph{Future Generation Computer Systems}, 174:\penalty0 107997,
+  2026.
+\newblock \doi{10.1016/j.future.2025.107997}.
+
+\bibitem[Barricelli et~al.(2019)Barricelli, Casiraghi, and
+  Fogli]{barricelli2019dt}
+Barbara~Rita Barricelli, Elena Casiraghi, and Daniela Fogli.
+\newblock {A Survey on Digital Twin: Definitions, Characteristics,
+  Applications, and Design Implications}.
+\newblock \emph{IEEE Access}, 7:\penalty0 167653--167671, 2019.
+\newblock \doi{10.1109/access.2019.2953499}.
+
+\bibitem[Baumers et~al.(2017)Baumers, Duflou, Flanagan, Gutowski, Kellens, and
+  Lifset]{baumers2017jiec}
+Martin Baumers, Joost~R. Duflou, William Flanagan, Timothy~G. Gutowski, Karel
+  Kellens, and Reid Lifset.
+\newblock {Charting the Environmental Dimensions of Additive Manufacturing and
+  3D Printing}.
+\newblock \emph{Journal of Industrial Ecology}, 21\penalty0 (S1), 2017.
+\newblock \doi{10.1111/jiec.12668}.
+
+\bibitem[Blázquez-García et~al.(2021)Blázquez-García, Conde, Mori, and
+  Lozano]{blazquez2021lof}
+Ane Blázquez-García, Angel Conde, Usue Mori, and Jose~A. Lozano.
+\newblock {A Review on Outlier/Anomaly Detection in Time Series Data}.
+\newblock \emph{ACM Computing Surveys}, 54\penalty0 (3):\penalty0 1--33, 2021.
+\newblock \doi{10.1145/3444690}.
+
+\bibitem[Breunig et~al.(2000)Breunig, Kriegel, Ng, and Sander]{breunig2000lof}
+Markus~M. Breunig, Hans-Peter Kriegel, Raymond~T. Ng, and Jörg Sander.
+\newblock {LOF}.
+\newblock In \emph{Proceedings of the 2000 ACM SIGMOD international conference
+  on Management of data}, pages 93--104. ACM, 2000.
+\newblock \doi{10.1145/342009.335388}.
+
+\bibitem[Cavalieri and Cutuli(2010)]{cho2010opcua}
+S~Cavalieri and G~Cutuli.
+\newblock {Performance evaluation of OPC UA}.
+\newblock In \emph{2010 IEEE 15th Conference on Emerging Technologies \&amp;
+  Factory Automation (ETFA 2010)}, pages 1--8. IEEE, 2010.
+\newblock \doi{10.1109/ETFA.2010.5641184}.
+
+\bibitem[Cho and Noh(2024)]{kumar2024dtfactory}
+Yechang Cho and Sang~Do Noh.
+\newblock {Design and Implementation of Digital Twin Factory Synchronized in
+  Real-Time Using MQTT}.
+\newblock \emph{Machines}, 12\penalty0 (11):\penalty0 759, 2024.
+\newblock \doi{10.3390/machines12110759}.
+
+\bibitem[Faria et~al.(2020)Faria, Fonseca, and Bicho]{fibremul2020}
+Carlos Faria, Jaime Fonseca, and Estela Bicho.
+\newblock {FIBR3DEmul—an open-access simulation solution for 3D printing
+  processes of FDM machines with 3+ actuated axes}.
+\newblock \emph{The International Journal of Advanced Manufacturing
+  Technology}, 106\penalty0 (7-8):\penalty0 3609--3623, 2020.
+\newblock \doi{10.1007/s00170-019-04713-y}.
+
+\bibitem[Fuller et~al.(2020)Fuller, Fan, Day, and Barlow]{fuller2020dt}
+Aidan Fuller, Zhong Fan, Charles Day, and Chris Barlow.
+\newblock {Digital Twin: Enabling Technologies, Challenges and Open Research}.
+\newblock \emph{IEEE Access}, 8:\penalty0 108952--108971, 2020.
+\newblock \doi{10.1109/access.2020.2998358}.
+
+\bibitem[Grieves and Vickers(2014)]{grieves2014dt}
+Michael Grieves and John Vickers.
+\newblock Digital twin: Manufacturing excellence through virtual factory
+  replication.
+\newblock White paper, Florida Institute of Technology, Melbourne, FL, USA,
+  2014.
+\newblock URL
+  \url{https://www.3ds.com/fileadmin/PRODUCTS-SERVICES/DELMIA/PDF/Whitepaper/DELMIA-APRISO-Digital-Twin-Whitepaper.pdf}.
+\newblock White paper; no DOI assigned.
+
+\bibitem[Grieves and Vickers(2016)]{grieves2016dt}
+Michael Grieves and John Vickers.
+\newblock {Digital Twin: Mitigating Unpredictable, Undesirable Emergent
+  Behavior in Complex Systems}.
+\newblock In \emph{Transdisciplinary Perspectives on Complex Systems}, pages
+  85--113. Springer International Publishing, 2016.
+\newblock \doi{10.1007/978-3-319-38756-7_4}.
+
+\bibitem[Henson et~al.(2021)Henson, Decker, and Huang]{henson2021dt}
+Christopher~M. Henson, Nathan~I. Decker, and Qiang Huang.
+\newblock {A digital twin strategy for major failure detection in fused
+  deposition modeling processes}.
+\newblock \emph{Procedia Manufacturing}, 53:\penalty0 359--367, 2021.
+\newblock \doi{10.1016/j.promfg.2021.06.039}.
+
+\bibitem[Human et~al.(2021)Human, Basson, and Kruger]{slemda2021sladta}
+C.~Human, A.~H. Basson, and K.~Kruger.
+\newblock {Digital Twin Data Pipeline Using MQTT in SLADTA}.
+\newblock In \emph{Studies in Computational Intelligence}, pages 111--122.
+  Springer International Publishing, 2021.
+\newblock \doi{10.1007/978-3-030-69373-2_7}.
+
+\bibitem[Infante et~al.(2025)Infante, Robles, Martín, Rubio, and
+  Díaz]{infante2025opentwins}
+Sergio Infante, Julia Robles, Cristian Martín, Bartolomé Rubio, and Manuel
+  Díaz.
+\newblock {Distributed digital twins on the open-source OpenTwins framework}.
+\newblock \emph{Advanced Engineering Informatics}, 64:\penalty0 102970, 2025.
+\newblock \doi{10.1016/j.aei.2024.102970}.
+
+\bibitem[{International Organization for Standardization}(2021)]{iso23247}
+{International Organization for Standardization}.
+\newblock Automation systems and integration --- digital twin framework for
+  manufacturing: Part 1, overview and general principles.
+\newblock ISO 23247-1:2021, 2021.
+\newblock URL \url{https://www.iso.org/standard/75066.html}.
+\newblock Standard; no DOI assigned.
+
+\bibitem[{International Organization for Standardization}(2023)]{iso30173}
+{International Organization for Standardization}.
+\newblock Information technology --- digital twin --- concepts and terminology.
+\newblock ISO/IEC 30173:2023, 2023.
+\newblock URL \url{https://www.iso.org/standard/81442.html}.
+\newblock Standard; no DOI assigned.
+
+\bibitem[Isermann(2005)]{isermann2005fault}
+Rolf Isermann.
+\newblock {Model-based fault-detection and diagnosis – status and
+  applications}.
+\newblock \emph{Annual Reviews in Control}, 29\penalty0 (1):\penalty0 71--85,
+  2005.
+\newblock \doi{10.1016/j.arcontrol.2004.12.002}.
+
+\bibitem[Jacoby and Usländer(2020)]{kaltenerstaleh2020dtiot}
+Michael Jacoby and Thomas Usländer.
+\newblock {Digital Twin and Internet of Things—Current Standards Landscape}.
+\newblock \emph{Applied Sciences}, 10\penalty0 (18):\penalty0 6519, 2020.
+\newblock \doi{10.3390/app10186519}.
+
+\bibitem[Jyeniskhan et~al.(2024)Jyeniskhan, Shomenov, Ali, and
+  Shehab]{jyeniskhan2024amdt}
+Nursultan Jyeniskhan, Kemel Shomenov, Md~Hazrat Ali, and Essam Shehab.
+\newblock {Exploring the integration of digital twin and additive manufacturing
+  technologies}.
+\newblock \emph{International Journal of Lightweight Materials and
+  Manufacture}, 7\penalty0 (6):\penalty0 860--881, 2024.
+\newblock \doi{10.1016/j.ijlmm.2024.06.004}.
+
+\bibitem[Kaul et~al.(2012)Kaul, Yates, and Gruteser]{kaul2012aoi}
+Sanjit Kaul, Roy Yates, and Marco Gruteser.
+\newblock {Real-time status: How often should one update?}
+\newblock In \emph{2012 Proceedings IEEE INFOCOM}, pages 2731--2735. IEEE,
+  2012.
+\newblock \doi{10.1109/INFCOM.2012.6195689}.
+
+\bibitem[Lakshminarayana et~al.(2024)Lakshminarayana, Praseed, and
+  Thilagam]{lei2024mqttsec}
+Sujitha Lakshminarayana, Amit Praseed, and P.~Santhi Thilagam.
+\newblock {Securing the IoT Application Layer From an MQTT Protocol
+  Perspective: Challenges and Research Prospects}.
+\newblock \emph{IEEE Communications Surveys \&amp; Tutorials}, 26\penalty0
+  (4):\penalty0 2510--2546, 2024.
+\newblock \doi{10.1109/COMST.2024.3372630}.
+
+\bibitem[Larsen et~al.(2024)Larsen, Fraunholz, Köhler, Rall, Langner, Görick,
+  and Schuster]{larsen2024recast}
+Lars Larsen, Thomas Fraunholz, Tim Köhler, Dennis Rall, Veronika Langner,
+  Dominik Görick, and Alfons Schuster.
+\newblock {RECAST: An Open-Source Digital Twin Framework for Industrial
+  Production Environments}.
+\newblock In \emph{Lecture Notes in Mechanical Engineering}, pages 160--171.
+  Springer Nature Switzerland, 2024.
+\newblock \doi{10.1007/978-3-031-74482-2_19}.
+
+\bibitem[Liu et~al.(2008)Liu, Ting, and Zhou]{liu2008iforest}
+Fei~Tony Liu, Kai~Ming Ting, and Zhi-Hua Zhou.
+\newblock {Isolation Forest}.
+\newblock In \emph{2008 Eighth IEEE International Conference on Data Mining},
+  pages 413--422. IEEE, 2008.
+\newblock \doi{10.1109/ICDM.2008.17}.
+
+\bibitem[Liu et~al.(2023)Liu, Zheng, and Bao]{liu2023dtms}
+Shimin Liu, Pai Zheng, and Jinsong Bao.
+\newblock {Digital Twin-based manufacturing system: a survey based on a novel
+  reference model}.
+\newblock \emph{Journal of Intelligent Manufacturing}, 35\penalty0
+  (6):\penalty0 2517--2546, 2023.
+\newblock \doi{10.1007/s10845-023-02172-7}.
+
+\bibitem[Mishra and Kertesz(2020)]{tonelli2020mqtt}
+Biswajeeban Mishra and Attila Kertesz.
+\newblock {The Use of MQTT in M2M and IoT Systems: A Survey}.
+\newblock \emph{IEEE Access}, 8:\penalty0 201071--201086, 2020.
+\newblock \doi{10.1109/ACCESS.2020.3035849}.
+
+\bibitem[Mishra et~al.(2021)Mishra, Mishra, and Kertesz]{tonelli2021brokers}
+Biswajeeban Mishra, Biswaranjan Mishra, and Attila Kertesz.
+\newblock {Stress-Testing MQTT Brokers: A Comparative Analysis of Performance
+  Measurements}.
+\newblock \emph{Energies}, 14\penalty0 (18):\penalty0 5817, 2021.
+\newblock \doi{10.3390/en14185817}.
+
+\bibitem[Nast et~al.(2022)Nast, Raddatz, Rother, Golatowski, and
+  Timmermann]{shafique2022pubsub}
+Michael Nast, Hannes Raddatz, Benjamin Rother, Frank Golatowski, and Dirk
+  Timmermann.
+\newblock {A Survey and Comparison of Publish/Subscribe Protocols for the
+  Industrial Internet of Things (IIoT)}.
+\newblock In \emph{Proceedings of the 12th International Conference on the
+  Internet of Things}, pages 193--200. ACM, 2022.
+\newblock \doi{10.1145/3567445.3571107}.
+
+\bibitem[Nieminen et~al.(2026)Nieminen, Gebreweld, Liuha, Nissinen, Verdugo,
+  Mikkola, and Kutvonen]{synthpdm2026}
+Walter Nieminen, Haben Gebreweld, Arto Liuha, Mikko Nissinen, Mario Verdugo,
+  Aki Mikkola, and Antero Kutvonen.
+\newblock {Synthetic Data for Predictive Maintenance: A Systematic Review and
+  Framework for Industry 4.0 Applications}.
+\newblock \emph{Journal of Intelligent Manufacturing}, 2026.
+\newblock \doi{10.1007/s10845-026-02795-6}.
+
+\bibitem[{OASIS Standard}(2014)]{mqtt311oasis}
+{OASIS Standard}.
+\newblock Mqtt version 3.1.1.
+\newblock OASIS Standard, 29 October 2014, 2014.
+\newblock URL
+  \url{http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html}.
+\newblock Industry specification; no DOI assigned.
+
+\bibitem[{OASIS Standard}(2019)]{mqtt5oasis}
+{OASIS Standard}.
+\newblock Mqtt version 5.0.
+\newblock OASIS Standard, 3 December 2019, 2019.
+\newblock URL
+  \url{https://docs.oasis-open.org/mqtt/mqtt/v5.0/os/mqtt-v5.0-os.html}.
+\newblock Industry specification; no DOI assigned.
+
+\bibitem[Pantelidakis et~al.(2022)Pantelidakis, Mykoniatis, Liu, and
+  Harris]{pantelidakis2022dt}
+Minas Pantelidakis, Konstantinos Mykoniatis, Jia Liu, and Gregory Harris.
+\newblock {A digital twin ecosystem for additive manufacturing using a
+  real-time development platform}.
+\newblock \emph{The International Journal of Advanced Manufacturing
+  Technology}, 120\penalty0 (9-10):\penalty0 6547--6563, 2022.
+\newblock \doi{10.1007/s00170-022-09164-6}.
+
+\bibitem[Rahmandad and Sterman(2012)]{rahmandad2012repro}
+Hazhir Rahmandad and John~D. Sterman.
+\newblock {Reporting guidelines for simulation‐based research in social
+  sciences}.
+\newblock \emph{System Dynamics Review}, 28\penalty0 (4):\penalty0 396--411,
+  2012.
+\newblock \doi{10.1002/sdr.1481}.
+
+\bibitem[Robles et~al.(2023)Robles, Martín, and Díaz]{robles2023opentwins}
+Julia Robles, Cristian Martín, and Manuel Díaz.
+\newblock {OpenTwins: An open-source framework for the development of next-gen
+  compositional digital twins}.
+\newblock \emph{Computers in Industry}, 152:\penalty0 104007, 2023.
+\newblock \doi{10.1016/j.compind.2023.104007}.
+
+\bibitem[Schwede and Fischer(2024)]{schwede2024sbdm}
+Christian Schwede and Daniel Fischer.
+\newblock {Learning Simulation-Based Digital Twins for Discrete Material Flow
+  Systems: A Review}.
+\newblock In \emph{2024 Winter Simulation Conference (WSC)}, pages 3070--3081.
+  IEEE, 2024.
+\newblock \doi{10.1109/WSC63780.2024.10838729}.
+
+\bibitem[Schölkopf et~al.(2001)Schölkopf, Platt, Shawe-Taylor, Smola, and
+  Williamson]{scholkopf2001ocsvm}
+Bernhard Schölkopf, John~C. Platt, John Shawe-Taylor, Alex~J. Smola, and
+  Robert~C. Williamson.
+\newblock {Estimating the Support of a High-Dimensional Distribution}.
+\newblock \emph{Neural Computation}, 13\penalty0 (7):\penalty0 1443--1471,
+  2001.
+\newblock \doi{10.1162/089976601750264965}.
+
+\bibitem[Seoane et~al.(2021)Seoane, Garcia-Rubio, Almenares, and
+  Campo]{florez2021coapmqtt}
+Victor Seoane, Carlos Garcia-Rubio, Florina Almenares, and Celeste Campo.
+\newblock {Performance evaluation of CoAP and MQTT with security support for
+  IoT environments}.
+\newblock \emph{Computer Networks}, 197:\penalty0 108338, 2021.
+\newblock \doi{10.1016/j.comnet.2021.108338}.
+
+\bibitem[Silva et~al.(2021)Silva, Carvalho, Soares, and
+  Sofia]{martins2021mqttperf}
+Daniel Silva, Liliana~I. Carvalho, José Soares, and Rute~C. Sofia.
+\newblock {A Performance Analysis of Internet of Things Networking Protocols:
+  Evaluating MQTT, CoAP, OPC UA}.
+\newblock \emph{Applied Sciences}, 11\penalty0 (11):\penalty0 4879, 2021.
+\newblock \doi{10.3390/app11114879}.
+
+\bibitem[Szydlo et~al.(2021)Szydlo, Sendorek, Windak, and
+  Brzoza-Woch]{szydlowski2021dataset}
+Tomasz Szydlo, Joanna Sendorek, Mateusz Windak, and Robert Brzoza-Woch.
+\newblock {Dataset for Anomalies Detection in 3D Printing}.
+\newblock In \emph{Lecture Notes in Computer Science}, pages 647--653. Springer
+  International Publishing, 2021.
+\newblock \doi{10.1007/978-3-030-77970-2_50}.
+
+\bibitem[Tan and Matta(2023)]{tan2023sync}
+Barış Tan and Andrea Matta.
+\newblock {The digital twin synchronization problem: Framework, formulations,
+  and analysis}.
+\newblock \emph{IISE Transactions}, 56\penalty0 (6):\penalty0 652--665, 2023.
+\newblock \doi{10.1080/24725854.2023.2253869}.
+
+\bibitem[Tao et~al.(2017)Tao, Cheng, Qi, Zhang, Zhang, and
+  Sui]{tao2017fivelayer}
+Fei Tao, Jiangfeng Cheng, Qinglin Qi, Meng Zhang, He~Zhang, and Fangyuan Sui.
+\newblock {Digital twin-driven product design, manufacturing and service with
+  big data}.
+\newblock \emph{The International Journal of Advanced Manufacturing
+  Technology}, 94\penalty0 (9-12):\penalty0 3563--3576, 2017.
+\newblock \doi{10.1007/s00170-017-0233-1}.
+
+\bibitem[Tao et~al.(2019)Tao, Zhang, Liu, and Nee]{tao2019dtii}
+Fei Tao, He~Zhang, Ang Liu, and A.~Y.~C. Nee.
+\newblock {Digital Twin in Industry: State-of-the-Art}.
+\newblock \emph{IEEE Transactions on Industrial Informatics}, 15\penalty0
+  (4):\penalty0 2405--2415, 2019.
+\newblock \doi{10.1109/TII.2018.2873186}.
+
+\bibitem[Uhlenkamp et~al.(2022)Uhlenkamp, Hauge, Broda, Lutjen, Freitag, and
+  Thoben]{uhlenkamp2022maturity}
+Jan-Frederik Uhlenkamp, Jannicke~Baalsrud Hauge, Eike Broda, Michael Lutjen,
+  Michael Freitag, and Klaus-Dieter Thoben.
+\newblock {Digital Twins: A Maturity Model for Their Classification and
+  Evaluation}.
+\newblock \emph{IEEE Access}, 10:\penalty0 69605--69635, 2022.
+\newblock \doi{10.1109/access.2022.3186353}.
+
+\bibitem[Walsh et~al.(2002)Walsh, Ye, and Bushnell]{walsh2002ncs}
+G.C. Walsh, Hong Ye, and L.G. Bushnell.
+\newblock {Stability analysis of networked control systems}.
+\newblock \emph{IEEE Transactions on Control Systems Technology}, 10\penalty0
+  (3):\penalty0 438--446, 2002.
+\newblock \doi{10.1109/87.998034}.
+
+\bibitem[Wippermann et~al.(2020)Wippermann, Gutowski, Denkena, Dittrich, and
+  Wessarges]{wippermann2020jcp}
+A.~Wippermann, Timothy~G. Gutowski, B.~Denkena, M.-A. Dittrich, and
+  Y.~Wessarges.
+\newblock {Electrical energy and material efficiency analysis of machining,
+  additive and hybrid manufacturing}.
+\newblock \emph{Journal of Cleaner Production}, 251:\penalty0 119731, 2020.
+\newblock \doi{10.1016/j.jclepro.2019.119731}.
+
+\bibitem[Yates et~al.(2021)Yates, Sun, Brown, Kaul, Modiano, and
+  Ulukus]{yates2021aoi}
+Roy~D. Yates, Yin Sun, D.~Richard Brown, Sanjit~K. Kaul, Eytan Modiano, and
+  Sennur Ulukus.
+\newblock {Age of Information: An Introduction and Survey}.
+\newblock \emph{IEEE Journal on Selected Areas in Communications}, 39\penalty0
+  (5):\penalty0 1183--1210, 2021.
+\newblock \doi{10.1109/JSAC.2021.3065072}.
+
+\bibitem[Zamanzadeh~Darban et~al.(2024)Zamanzadeh~Darban, Webb, Pan, Aggarwal,
+  and Salehi]{darban2024deep}
+Zahra Zamanzadeh~Darban, Geoffrey~I. Webb, Shirui Pan, Charu Aggarwal, and
+  Mahsa Salehi.
+\newblock {Deep Learning for Time Series Anomaly Detection: A Survey}.
+\newblock \emph{ACM Computing Surveys}, 57\penalty0 (1):\penalty0 1--42, 2024.
+\newblock \doi{10.1145/3691338}.
+
+\bibitem[Zhang et~al.(2001)Zhang, Branicky, and Phillips]{zhang2001ncs}
+Wei Zhang, Michael~S. Branicky, and Stephen~M. Phillips.
+\newblock {Stability of networked control systems}.
+\newblock \emph{IEEE Control Systems Magazine}, 21\penalty0 (1):\penalty0
+  84--99, 2001.
+\newblock \doi{10.1109/37.898794}.
+
+\end{thebibliography}
