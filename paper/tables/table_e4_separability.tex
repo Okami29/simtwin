@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering\small\setlength{\tabcolsep}{4pt}
+\caption{E4 fault separability. Per-channel Cohen's $d$ between telemetry recorded while the fault was active during \texttt{PRINTING} and the fault-free \texttt{PRINTING} baseline. Positive $d$ means the fault raises the channel.}
+\label{tab:e4}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrrrrr@{}}
+\toprule
+Fault & Samples & Max $|d|$ & $\Delta T_{\mathrm{nozzle}}$ & $\Delta T_{\mathrm{bed}}$ & $\Delta P$ (W) & $\Delta v$ (mm/s) & $\Delta m$ (g) & $\Delta$ health \\
+\midrule
+bed\_heater\_failure & 58941 & 3.68 & -0.06 & -1.53 & 3.68 & -0.21 & -0.27 & -1.76 \\
+temperature\_instability & 60025 & 1.85 & -0.18 & -0.21 & 0.53 & -0.05 & -0.36 & -1.85 \\
+sensor\_noise & 48584 & 1.85 & -0.16 & -0.06 & 0.54 & -0.15 & -0.32 & -1.85 \\
+motor\_overheating & 50587 & 1.80 & -0.13 & -0.26 & 1.80 & -0.44 & -0.72 & -1.73 \\
+abnormal\_cooling & 45099 & 1.69 & -1.35 & -0.15 & 1.15 & -0.06 & -0.44 & -1.69 \\
+power\_anomaly & 44926 & 1.65 & -0.20 & -0.24 & 1.65 & -0.26 & -0.26 & -1.40 \\
+nozzle\_heater\_failure & 44207 & 1.54 & -1.47 & -0.25 & 1.00 & 0.14 & -0.28 & -1.54 \\
+sensor\_drift\_nozzle & 68701 & 1.52 & 0.63 & -0.23 & 0.55 & -0.13 & -0.45 & -1.52 \\
+extrusion\_blockage & 54696 & 1.49 & -0.17 & -0.15 & 0.43 & -0.24 & -0.55 & -1.49 \\
+nozzle\_thermal\_drift & 47213 & 1.45 & 0.33 & -0.20 & 0.46 & -0.09 & -0.41 & -1.45 \\
+\bottomrule
+\end{tabular}}
+\end{table}

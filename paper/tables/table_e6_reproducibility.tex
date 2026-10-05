@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering\small
+\caption{E6 reproducibility. SHA-256 of the telemetry artifact. Two runs at the same seed are byte-identical; changing the seed changes the artifact.}
+\label{tab:e6}
+\begin{tabular}{@{}ll@{}}
+\toprule
+Run & Telemetry SHA-256 \\
+\midrule
+seed~2027 run 1 & \texttt{9e797bd1f050c6ff}$\ldots$\texttt{03965455} \\
+seed~2027 run 2 & \texttt{9e797bd1f050c6ff}$\ldots$\texttt{03965455} \\
+seed~2028 run 1 & \texttt{995f11e1b52ff1b7}$\ldots$\texttt{7b9a4cbd} \\
+\emph{Same seed identical} & \texttt{True} \\
+\emph{Different seed differs} & \texttt{True} \\
+\bottomrule
+\end{tabular}
+\end{table}

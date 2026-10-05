@@ -1,0 +1,7 @@
+include README.md LICENSE CITATION.cff requirements.txt
+recursive-include src/simtwin *.py
+recursive-include experiments *.py
+recursive-include tests *.py
+recursive-include paper/figures *.pdf
+recursive-include paper/tables *.tex *.md
+recursive-include results *.csv *.json

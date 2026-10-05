@@ -1,0 +1,26 @@
+# Environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Build / release output (the release tarball is published separately)
+build/
+dist/
+
+# Raw per-run simulation artifacts: regenerable from (config, seed).
+# Only the summaries, the separability table and the bibliography audit are tracked.
+results/**/telemetry.csv
+results/**/telemetry.parquet
+results/**/events.csv
+results/**/metadata.json
+results/E*/n*/
+results/E*/int*/
+results/E*/loss*/
+results/E*/episode/
+results/E*/qos*/
+
+# working-session logs
+*.log

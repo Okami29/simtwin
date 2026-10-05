@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use SimTwin, please cite the software and the accompanying manuscript."
+title: "SimTwin: a reproducible digital-twin simulator for networked FDM/FFF additive-manufacturing fleets"
+abstract: >-
+  SimTwin simulates a fleet of fused-filament additive-manufacturing
+  printers, the network connecting them, and the digital twins observing them.
+  Twin state is written only by messages that survive an explicit delivery-semantics
+  pipeline, and faults are implemented as mechanisms acting on the physical plant
+  rather than as labels on telemetry, so twin staleness, synchronisation delay,
+  resynchronisation counts and fault-signature separability are measurable outcomes
+  of the model.
+type: software
+authors:
+  - family-names: "Sulakvelidze"
+    given-names: "Nata"
+repository-code: "https://github.com/Okami29/simtwin"
+license: MIT
+version: "0.1.0"
+date-released: "2026-10-05"
+keywords:
+  - digital twin
+  - additive manufacturing
+  - FDM
+  - FFF
+  - industrial IoT
+  - MQTT
+  - fault injection
+  - reproducibility
+  - simulation
+references:
+  - type: software-code
+    title: "SimTwin"
+    authors:
+      - family-names: "Sulakvelidze"
+        given-names: "Nata"
+    repository-code: "https://github.com/Okami29/simtwin"
+    version: "0.1.0"
+    license: MIT

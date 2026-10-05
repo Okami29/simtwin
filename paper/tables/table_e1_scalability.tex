@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering\small\setlength{\tabcolsep}{4pt}
+\caption{E1 scalability. Fleet size swept over three orders of magnitude at 3\,600\,s simulated duration, $\Delta t = 1$\,s, on one core group of an 11-core laptop. RTF is the real-time factor.}
+\label{tab:e1}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule
+Fleet $n$ & Wall (s) & RTF & Device-steps s$^{-1}$ & Telemetry (msg s$^{-1}$) & Peak RSS (MB) & Generated & Delivery (\%) \\
+\midrule
+1 & 0.4142 & 8691 & 8691 & 8691 & 100.8 & 3600 & 99.97 \\
+10 & 0.7609 & 4731 & 4.731e+04 & 4.731e+04 & 148.9 & 3.6e+04 & 99.97 \\
+50 & 1.971 & 1826 & 9.13e+04 & 9.13e+04 & 346.4 & 1.8e+05 & 99.97 \\
+100 & 3.48 & 1035 & 1.035e+05 & 1.035e+05 & 762 & 3.6e+05 & 99.97 \\
+250 & 8.78 & 410 & 1.025e+05 & 1.025e+05 & 1570 & 9e+05 & 99.97 \\
+500 & 17.83 & 201.9 & 1.009e+05 & 1.009e+05 & 2308 & 1.8e+06 & 99.97 \\
+1000 & 40.61 & 88.64 & 8.864e+04 & 8.864e+04 & 3289 & 3.6e+06 & 99.97 \\
+\bottomrule
+\end{tabular}}
+\end{table}

@@ -1,0 +1,17 @@
+{
+  "dropped": [
+    "makis2020ai4i",
+    "malamed2015energy",
+    "park1998ncs",
+    "pustek2019ncs",
+    "valizadeh2021energy"
+  ],
+  "no_doi_standards": [
+    "grieves2014dt",
+    "iso23247",
+    "iso30173",
+    "mqtt311oasis",
+    "mqtt5oasis"
+  ],
+  "total_verified": 44
+}

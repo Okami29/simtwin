@@ -1,0 +1,492 @@
+[
+  {
+    "key": "aznar2026dtm",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Methodologies in digital twin for manufacturing industry: A systematic literature review",
+    "crossref_year": 2026,
+    "claimed_year": "2026",
+    "title_match": true
+  },
+  {
+    "key": "barricelli2019dt",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "A Survey on Digital Twin: Definitions, Characteristics, Applications, and Design Implications",
+    "crossref_year": 2019,
+    "claimed_year": "2019",
+    "title_match": true
+  },
+  {
+    "key": "baumers2017jiec",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Charting the Environmental Dimensions of Additive Manufacturing and 3D Printing",
+    "crossref_year": 2017,
+    "claimed_year": "2017",
+    "title_match": true
+  },
+  {
+    "key": "blazquez2021lof",
+    "type": "article",
+    "status": "no-doi",
+    "doi": "",
+    "crossref_title": null,
+    "crossref_year": null,
+    "claimed_year": "2021",
+    "title_match": false
+  },
+  {
+    "key": "breunig2000lof",
+    "type": "inproceedings",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "LOF",
+    "crossref_year": 2000,
+    "claimed_year": "2000",
+    "title_match": true
+  },
+  {
+    "key": "cho2010opcua",
+    "type": "inproceedings",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Performance evaluation of OPC UA",
+    "crossref_year": 2010,
+    "claimed_year": "2010",
+    "title_match": true
+  },
+  {
+    "key": "cunha2023dosmqtt",
+    "type": "article",
+    "status": "no-doi",
+    "doi": "",
+    "crossref_title": null,
+    "crossref_year": null,
+    "claimed_year": "2023",
+    "title_match": false
+  },
+  {
+    "key": "darban2024deep",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Deep Learning for Time Series Anomaly Detection: A Survey",
+    "crossref_year": 2024,
+    "claimed_year": "2024",
+    "title_match": true
+  },
+  {
+    "key": "fibremul2020",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "FIBR3DEmul\u2014an open-access simulation solution for 3D printing processes of FDM machines with 3+ actuated axes",
+    "crossref_year": 2020,
+    "claimed_year": "2020",
+    "title_match": true
+  },
+  {
+    "key": "florez2021coapmqtt",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Performance evaluation of CoAP and MQTT with security support for IoT environments",
+    "crossref_year": 2021,
+    "claimed_year": "2021",
+    "title_match": true
+  },
+  {
+    "key": "fuller2020dt",
+    "type": "article",
+    "status": "no-doi",
+    "doi": "",
+    "crossref_title": null,
+    "crossref_year": null,
+    "claimed_year": "2020",
+    "title_match": false
+  },
+  {
+    "key": "grieves2014dt",
+    "type": "misc",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Virtual Factory: Digital Twin Based Integrated Factory Simulations",
+    "crossref_year": 2020,
+    "claimed_year": "2014",
+    "title_match": false
+  },
+  {
+    "key": "grieves2016dt",
+    "type": "incollection",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Digital Twin: Mitigating Unpredictable, Undesirable Emergent Behavior in Complex Systems",
+    "crossref_year": 2016,
+    "claimed_year": "2016",
+    "title_match": true
+  },
+  {
+    "key": "henson2021dt",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "A digital twin strategy for major failure detection in fused deposition modeling processes",
+    "crossref_year": 2021,
+    "claimed_year": "2021",
+    "title_match": true
+  },
+  {
+    "key": "infante2025opentwins",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Distributed digital twins on the open-source OpenTwins framework",
+    "crossref_year": 2025,
+    "claimed_year": "2025",
+    "title_match": true
+  },
+  {
+    "key": "isermann2005fault",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Model-based fault-detection and diagnosis \u2013 status and applications",
+    "crossref_year": 2005,
+    "claimed_year": "2005",
+    "title_match": true
+  },
+  {
+    "key": "iso23247",
+    "type": "misc",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Automation systems and integration \ufffd Digital twin framework for manufacturing",
+    "crossref_year": null,
+    "claimed_year": "2021",
+    "title_match": true
+  },
+  {
+    "key": "iso30173",
+    "type": "misc",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "\u00abDigital Twin\u00bb technology in medical information systems",
+    "crossref_year": 2020,
+    "claimed_year": "2023",
+    "title_match": false
+  },
+  {
+    "key": "jyeniskhan2024amdt",
+    "type": "article",
+    "status": "no-doi",
+    "doi": "",
+    "crossref_title": null,
+    "crossref_year": null,
+    "claimed_year": "2024",
+    "title_match": false
+  },
+  {
+    "key": "kaltenerstaleh2020dtiot",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Digital Twin and Internet of Things\u2014Current Standards Landscape",
+    "crossref_year": 2020,
+    "claimed_year": "2020",
+    "title_match": true
+  },
+  {
+    "key": "kaul2012aoi",
+    "type": "inproceedings",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Real-time status: How often should one update?",
+    "crossref_year": 2012,
+    "claimed_year": "2012",
+    "title_match": true
+  },
+  {
+    "key": "kumar2024dtfactory",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Design and Implementation of Digital Twin Factory Synchronized in Real-Time Using MQTT",
+    "crossref_year": 2024,
+    "claimed_year": "2024",
+    "title_match": true
+  },
+  {
+    "key": "larsen2024recast",
+    "type": "incollection",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "RECAST: An Open-Source Digital Twin Framework for\u00a0Industrial Production Environments",
+    "crossref_year": 2024,
+    "claimed_year": "2024",
+    "title_match": true
+  },
+  {
+    "key": "lei2024mqttsec",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Securing the IoT Application Layer From an MQTT Protocol Perspective: Challenges and Research Prospects",
+    "crossref_year": 2024,
+    "claimed_year": "2024",
+    "title_match": true
+  },
+  {
+    "key": "liu2008iforest",
+    "type": "inproceedings",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Isolation Forest",
+    "crossref_year": 2008,
+    "claimed_year": "2008",
+    "title_match": true
+  },
+  {
+    "key": "liu2023dtms",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Digital Twin-based manufacturing system: a survey based on a novel reference model",
+    "crossref_year": 2023,
+    "claimed_year": "2023",
+    "title_match": true
+  },
+  {
+    "key": "martins2021mqttperf",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "A Performance Analysis of Internet of Things Networking Protocols: Evaluating MQTT, CoAP, OPC UA",
+    "crossref_year": 2021,
+    "claimed_year": "2021",
+    "title_match": true
+  },
+  {
+    "key": "mqtt311oasis",
+    "type": "misc",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "PrioMQTT: A prioritized version of the MQTT protocol",
+    "crossref_year": 2024,
+    "claimed_year": "2014",
+    "title_match": false
+  },
+  {
+    "key": "mqtt5oasis",
+    "type": "misc",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "PrioMQTT: A prioritized version of the MQTT protocol",
+    "crossref_year": 2024,
+    "claimed_year": "2019",
+    "title_match": false
+  },
+  {
+    "key": "mtdn2024",
+    "type": "inproceedings",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "MQTT Based Data Distribution Framework for Digital Twin Networks",
+    "crossref_year": 2024,
+    "claimed_year": "2024",
+    "title_match": true
+  },
+  {
+    "key": "pantelidakis2022dt",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "A Digital Twin Ecosystem for Additive Manufacturing using a Real-Time Development Platform",
+    "crossref_year": 2022,
+    "claimed_year": "2022",
+    "title_match": true
+  },
+  {
+    "key": "rahmandad2012repro",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Reporting guidelines for simulation\u2010based research in social sciences",
+    "crossref_year": 2012,
+    "claimed_year": "2012",
+    "title_match": true
+  },
+  {
+    "key": "robles2023opentwins",
+    "type": "article",
+    "status": "no-doi",
+    "doi": "",
+    "crossref_title": null,
+    "crossref_year": null,
+    "claimed_year": "2023",
+    "title_match": false
+  },
+  {
+    "key": "scholkopf2001ocsvm",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Estimating the Support of a High-Dimensional Distribution",
+    "crossref_year": 2001,
+    "claimed_year": "2001",
+    "title_match": true
+  },
+  {
+    "key": "schwede2024sbdm",
+    "type": "inproceedings",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Learning Simulation-Based Digital Twins for Discrete Material Flow Systems: A Review",
+    "crossref_year": 2024,
+    "claimed_year": "2024",
+    "title_match": true
+  },
+  {
+    "key": "shafique2022pubsub",
+    "type": "inproceedings",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "A Survey and Comparison of Publish/Subscribe Protocols for the Industrial Internet of Things (IIoT)",
+    "crossref_year": 2022,
+    "claimed_year": "2022",
+    "title_match": true
+  },
+  {
+    "key": "slemda2021sladta",
+    "type": "incollection",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Digital Twin Data Pipeline Using MQTT in SLADTA",
+    "crossref_year": 2021,
+    "claimed_year": "2021",
+    "title_match": true
+  },
+  {
+    "key": "synthpdm2026",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Synthetic Data for Predictive Maintenance: A Systematic Review and Framework for Industry 4.0 Applications",
+    "crossref_year": 2026,
+    "claimed_year": "2026",
+    "title_match": true
+  },
+  {
+    "key": "szydlowski2021dataset",
+    "type": "incollection",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Dataset for Anomalies Detection in 3D Printing",
+    "crossref_year": 2021,
+    "claimed_year": "2021",
+    "title_match": true
+  },
+  {
+    "key": "tan2023sync",
+    "type": "article",
+    "status": "no-doi",
+    "doi": "",
+    "crossref_title": null,
+    "crossref_year": null,
+    "claimed_year": "2023",
+    "title_match": false
+  },
+  {
+    "key": "tao2017fivelayer",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Digital twin-driven product design, manufacturing and service with big data",
+    "crossref_year": 2017,
+    "claimed_year": "2017",
+    "title_match": true
+  },
+  {
+    "key": "tao2019dtii",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Digital Twin in Industry: State-of-the-Art",
+    "crossref_year": 2019,
+    "claimed_year": "2019",
+    "title_match": true
+  },
+  {
+    "key": "tonelli2020mqtt",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "The Use of MQTT in M2M and IoT Systems: A Survey",
+    "crossref_year": 2020,
+    "claimed_year": "2020",
+    "title_match": true
+  },
+  {
+    "key": "tonelli2021brokers",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Stress-Testing MQTT Brokers: A Comparative Analysis of Performance Measurements",
+    "crossref_year": 2021,
+    "claimed_year": "2021",
+    "title_match": true
+  },
+  {
+    "key": "uhlenkamp2022maturity",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Digital Twins: A Maturity Model for Their Classification and Evaluation",
+    "crossref_year": 2022,
+    "claimed_year": "2022",
+    "title_match": true
+  },
+  {
+    "key": "walsh2002ncs",
+    "type": "article",
+    "status": "no-doi",
+    "doi": "",
+    "crossref_title": null,
+    "crossref_year": null,
+    "claimed_year": "2002",
+    "title_match": false
+  },
+  {
+    "key": "wippermann2020jcp",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Electrical energy and material efficiency analysis of machining, additive and hybrid manufacturing",
+    "crossref_year": 2020,
+    "claimed_year": "2020",
+    "title_match": true
+  },
+  {
+    "key": "yates2021aoi",
+    "type": "article",
+    "status": "no-doi",
+    "doi": "",
+    "crossref_title": null,
+    "crossref_year": null,
+    "claimed_year": "2021",
+    "title_match": false
+  },
+  {
+    "key": "zhang2001ncs",
+    "type": "article",
+    "status": "title-match",
+    "doi": "",
+    "crossref_title": "Stability of networked control systems",
+    "crossref_year": 2001,
+    "claimed_year": "2001",
+    "title_match": true
+  }
+]

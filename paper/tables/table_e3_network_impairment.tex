@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering\small\setlength{\tabcolsep}{4pt}
+\caption{E3 network impairment. Loss sweep ($p$ varied) and outage sweep (mean interval between per-device disconnection episodes varied, mean episode duration 60\,s). $n=200$, 3\,600\,s.}
+\label{tab:e3}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrrrrrrr@{}}
+\toprule
+Scenario & Loss $p$ & Outage period (s) & Generated & Delivered & Delivery (\%) & Latency mean (ms) & Latency max (ms) & p95 staleness (s) & Offline area (dev\,s) & Resyncs \\
+\midrule
+loss & 0 & 0 & 720000 & 719800 & 99.97 & 17.09 & 91.51 & 0.988 & 200 & 0 \\
+loss & 0.01 & 0 & 720000 & 712663 & 98.98 & 17.09 & 91.51 & 1.988 & 203 & 0 \\
+loss & 0.05 & 0 & 720000 & 684046 & 95.01 & 17.09 & 91.51 & 2.988 & 214 & 0 \\
+loss & 0.1 & 0 & 720000 & 647915 & 89.99 & 17.09 & 91.51 & 3.987 & 220 & 0 \\
+loss & 0.2 & 0 & 720000 & 575987 & 80 & 17.08 & 84.08 & 5.981 & 250 & 0 \\
+loss & 0.3 & 0 & 720000 & 504368 & 70.05 & 17.08 & 84.08 & 6.987 & 274 & 0 \\
+outage & 0 & 0 & 720000 & 719800 & 99.97 & 17.08 & 92.13 & 0.988 & 200 & 0 \\
+outage & 0 & 1800 & 720000 & 719059 & 99.87 & 3647 & 1.88e+05 & 172 & 2.012e+04 & 40899 \\
+outage & 0 & 900 & 720000 & 718714 & 99.82 & 6424 & 1.83e+05 & 175 & 3.5e+04 & 72598 \\
+outage & 0 & 300 & 720000 & 716866 & 99.56 & 1.567e+04 & 1.88e+05 & 177 & 8.504e+04 & 180413 \\
+outage & 0 & 120 & 720000 & 715172 & 99.33 & 2.847e+04 & 2.99e+05 & 179 & 1.528e+05 & 324942 \\
+\bottomrule
+\end{tabular}}
+\end{table}

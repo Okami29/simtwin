@@ -1,0 +1,99 @@
+{
+  "dataset": "simtwin-v0.1",
+  "title": "SimTwin v0.1 experiment results: networked FDM/FFF digital-twin fleet simulation",
+  "simulator_version": "0.1.0",
+  "file_count": 15,
+  "total_bytes": 52646898,
+  "files": [
+    {
+      "path": "summaries/E1_scalability.csv",
+      "bytes": 2957,
+      "sha256": "f189a3b9f875de5cdd9a939dbbf1dc22f91dc2aa582447060b139df454ed282b",
+      "note": "E1_scalability: one row per sweep point, all metrics, with the seed"
+    },
+    {
+      "path": "summaries/E2_telemetry_rate.csv",
+      "bytes": 2998,
+      "sha256": "e2f3ef11d236ab2efe5e9361517527c44565fa3c23f4b6176e78875401e32030",
+      "note": "E2_telemetry_rate: one row per sweep point, all metrics, with the seed"
+    },
+    {
+      "path": "summaries/E3_network_impairment.csv",
+      "bytes": 4775,
+      "sha256": "be0fc1149198b226b44833f6a45e28c6b8e77d36a562892632e99f825d35fb48",
+      "note": "E3_network_impairment: one row per sweep point, all metrics, with the seed"
+    },
+    {
+      "path": "summaries/E4_fault_injection.csv",
+      "bytes": 1989,
+      "sha256": "9a94a3b44543dd404290c70557b9a8c2a2e4ead0c2136b98bea811eadd65c879",
+      "note": "E4_fault_injection: one row per sweep point, all metrics, with the seed"
+    },
+    {
+      "path": "summaries/E5_outage_recovery.csv",
+      "bytes": 1253,
+      "sha256": "e044783079d8932540a073fc08df7464dc662df6813bb929a15003be41aabab4",
+      "note": "E5_outage_recovery: one row per sweep point, all metrics, with the seed"
+    },
+    {
+      "path": "summaries/E6_reproducibility.csv",
+      "bytes": 306,
+      "sha256": "b01a259d7e50c04d1d4de500384c8448214b3e210038f63502fcce8334dbf7e4",
+      "note": "E6_reproducibility: one row per sweep point, all metrics, with the seed"
+    },
+    {
+      "path": "summaries/E7_broker_fidelity.csv",
+      "bytes": 612,
+      "sha256": "57a31e7868271c4391504d76758c131a2c34e8290091f27f36b01ecb225bcb4b",
+      "note": "E7_broker_fidelity: one row per sweep point, all metrics, with the seed"
+    },
+    {
+      "path": "E4_fault_injection/separability.csv",
+      "bytes": 2684,
+      "sha256": "c5271b1f1926eeb6c277a9cd3fdcb3c1ea84f1c5e653d730a75cb79f9c42512c",
+      "note": "Per-channel Cohen's d and per-channel AUC for every injected fault"
+    },
+    {
+      "path": "E4_fault_injection/telemetry_baseline.parquet",
+      "bytes": 25001542,
+      "sha256": "4d6113e5598dac4a70dc0cce4e4f98ff61545c08c9e2c671896b82791eb5761d",
+      "note": "E4 baseline run telemetry (Parquet; CSV twin is regenerable)"
+    },
+    {
+      "path": "E4_fault_injection/metadata_baseline.json",
+      "bytes": 6896,
+      "sha256": "4d844a626aacc68383427362b2537edc4e0162509fb443d9528b7aef7823477a",
+      "note": "E4 baseline resolved config, seed, metrics, fault summary, environment"
+    },
+    {
+      "path": "E4_fault_injection/telemetry_faulted.parquet",
+      "bytes": 27437696,
+      "sha256": "6883941f43a75baf14b540b536b75e94c9d4c020b9b3594d779ea500edd6742b",
+      "note": "E4 faulted run telemetry (Parquet; CSV twin is regenerable)"
+    },
+    {
+      "path": "E4_fault_injection/metadata_faulted.json",
+      "bytes": 7599,
+      "sha256": "8bc3efaa3303f5fe3f05a303f703689f258bd6ebc47054e3960552d40189dd9c",
+      "note": "E4 faulted resolved config, seed, metrics, fault summary, environment"
+    },
+    {
+      "path": "E4_fault_injection/events_faulted.csv",
+      "bytes": 139678,
+      "sha256": "98f7f5b3918aad5c0feb1432be82258d28b81d789bca11671a8d2c8b95bc24cb",
+      "note": "E4 faulted-run event log"
+    },
+    {
+      "path": "bibliography_verification.json",
+      "bytes": 35636,
+      "sha256": "e89589bf5d247a0794c7b868694e210491b4ca7273527f936b75f5ef9ef82fae",
+      "note": "Crossref resolution record for every bibliography entry"
+    },
+    {
+      "path": "bibliography_dropped.json",
+      "bytes": 277,
+      "sha256": "b00d576c319c8f2d284be5d65eddfabb574c1dfbf10630da31d28f288b23210f",
+      "note": "Entries dropped from the bibliography as unverifiable, with reasons"
+    }
+  ]
+}

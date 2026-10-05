@@ -1,0 +1,343 @@
+{
+  "ncs_survey": [],
+  "pdm_dataset": [
+    {
+      "doi": "10.1007/978-1-4615-1635-4_3",
+      "title": "Optimal Control Policy for a General EMQ Model with Random Machine Failure",
+      "container": "Integrated Models in Production Planning, Inventory, Quality, and Maintenance",
+      "year": 2001,
+      "volume": null,
+      "issue": null,
+      "page": "67-78",
+      "article": null,
+      "authors": "Makis V.; Jiang X."
+    },
+    {
+      "doi": "10.1007/978-1-4615-4329-9_15",
+      "title": "A General EMQ Model with Machine Breakdowns and Two Types of Failure",
+      "container": "Maintenance, Modeling and Optimization",
+      "year": 2000,
+      "volume": null,
+      "issue": null,
+      "page": "377-396",
+      "article": null,
+      "authors": "Makis V.; Jiang X.; Tse E."
+    },
+    {
+      "doi": "10.1093/imaman/9.2.201",
+      "title": "A condition-based maintenance model",
+      "container": "IMA Journal of Management Mathematics",
+      "year": 1998,
+      "volume": "9",
+      "issue": "2",
+      "page": "201-210",
+      "article": null,
+      "authors": "Makis V"
+    },
+    {
+      "doi": "10.1109/icmee.2010.5558579",
+      "title": "Notice of Retraction: Wavelet analysis with time-synchronous averaging of planetary gearbox vibration data for fault detection, diagnostics, and condition based",
+      "container": "2010 2nd International Conference on Mechanical and Electronics Engineering",
+      "year": 2010,
+      "volume": null,
+      "issue": null,
+      "page": "V1-132-V1-136",
+      "article": null,
+      "authors": "Jing Yu; Yip Lawrence; Makis Viliam"
+    },
+    {
+      "doi": "10.1108/13552510510626990",
+      "title": "An application of the modulus maxima distribution in machinery condition monitoring",
+      "container": "Journal of Quality in Maintenance Engineering",
+      "year": 2005,
+      "volume": "11",
+      "issue": "4",
+      "page": "375-387",
+      "article": null,
+      "authors": "Miao Qiang; Makis Viliam"
+    },
+    {
+      "doi": "10.1108/13552519710167728",
+      "title": "Optimal replacement policy and the structure of software for condition\u2010based maintenance",
+      "container": "Journal of Quality in Maintenance Engineering",
+      "year": 1997,
+      "volume": "3",
+      "issue": "2",
+      "page": "109-119",
+      "article": null,
+      "authors": "Jardine A.K.S.; Banjevic D.; Makis V."
+    }
+  ],
+  "fdm_energy": [
+    {
+      "doi": "10.1109/ithings-greencom-cpscom-smartdata.2017.73",
+      "title": "Measuring the Energy Consumption of Massive Data Insertions: An Energy Consumption Assessment of the PL/SQL FOR LOOP and FORALL Methods",
+      "container": "2017 IEEE International Conference on Internet of Things (iThings) and IEEE Green Computin",
+      "year": 2017,
+      "volume": null,
+      "issue": null,
+      "page": "450-457",
+      "article": null,
+      "authors": "Gutowski Nicolas; Camp Olivier; Chauveau Eric"
+    },
+    {
+      "doi": "10.1021/ci6002703",
+      "title": "Quantum Mechanical Energy-Based Screening of Combinatorially Generated Library of Tautomers. TauTGen:\u2009 A Tautomer Generator Program",
+      "container": "Journal of Chemical Information and Modeling",
+      "year": 2006,
+      "volume": "47",
+      "issue": "2",
+      "page": "686-694",
+      "article": null,
+      "authors": "Hara\u0144czyk Maciej; Gutowski Maciej"
+    },
+    {
+      "doi": "10.2139/ssrn.5136229",
+      "title": "Disclosing the Machine: Trends, Policies, and Considerations of Artificial Intelligence Use in Law Review Authorship",
+      "container": "",
+      "year": 2025,
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "article": null,
+      "authors": "Gutowski Nachman"
+    },
+    {
+      "doi": "10.2172/6711123",
+      "title": "Modeling land-surface/atmosphere dynamics for CHAMMP",
+      "container": "",
+      "year": 1993,
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "article": null,
+      "authors": "Gutowski W.J. Jr."
+    },
+    {
+      "doi": "10.1088/1126-6708/2004/08/049",
+      "title": "Uniqueness of Five-Dimensional Supersymmetric Black Holes",
+      "container": "Journal of High Energy Physics",
+      "year": 2004,
+      "volume": "2004",
+      "issue": "08",
+      "page": "049-049",
+      "article": null,
+      "authors": "Gutowski Jan B"
+    },
+    {
+      "doi": "10.1016/j.energy.2017.11.039",
+      "title": "Built environment energy trade-offs scaling",
+      "container": "Energy",
+      "year": 2017,
+      "volume": "141",
+      "issue": null,
+      "page": "1374-1383",
+      "article": null,
+      "authors": "Pan R.; Gutowski T.G.; Sekulic D.P."
+    }
+  ],
+  "mex_energy": [
+    {
+      "doi": "10.3390/app10124413",
+      "title": "Harmony Search Optimization of Nozzle Movement for Additive Manufacturing of Concrete Structures and Concrete Elements",
+      "container": "Applied Sciences",
+      "year": 2020,
+      "volume": "10",
+      "issue": "12",
+      "page": "4413",
+      "article": null,
+      "authors": "Toklu Yusuf; Bekda\u015f Gebrail; Geem Zong"
+    },
+    {
+      "doi": "10.1016/j.enpol.2011.05.008",
+      "title": "Transport energy demand modeling of South Korea using artificial neural network",
+      "container": "Energy Policy",
+      "year": 2011,
+      "volume": "39",
+      "issue": "8",
+      "page": "4644-4650",
+      "article": null,
+      "authors": "Geem Zong Woo"
+    },
+    {
+      "doi": "10.1016/j.enpol.2009.08.062",
+      "title": "Response to \u201cComments on \u2018Energy demand estimation of South Korea using artificial neural network\u2019 by Zong Woo Geem and William E. Roper\u201d by Serhat Kucukali",
+      "container": "Energy Policy",
+      "year": 2010,
+      "volume": "38",
+      "issue": "10",
+      "page": "6381-6382",
+      "article": null,
+      "authors": "Geem Zong Woo"
+    },
+    {
+      "doi": "10.1016/j.egyr.2025.10.006",
+      "title": "Predicting the total heating and cooling energy consumption with ultra high-performance fiber reinforced concrete facade panels using explainable machine learni",
+      "container": "Energy Reports",
+      "year": 2025,
+      "volume": "14",
+      "issue": null,
+      "page": "3254-3275",
+      "article": null,
+      "authors": "Ayd\u0131n Yaren; Cakiroglu Celal; Bekda\u015f Gebrail; Abualigah Laith; Geem Zong Woo"
+    },
+    {
+      "doi": "10.1016/j.ijepes.2012.04.051",
+      "title": "Size optimization for a hybrid photovoltaic\u2013wind energy system",
+      "container": "International Journal of Electrical Power &amp; Energy Systems",
+      "year": 2012,
+      "volume": "42",
+      "issue": "1",
+      "page": "448-451",
+      "article": null,
+      "authors": "Geem Zong Woo"
+    },
+    {
+      "doi": "10.1016/j.ijepes.2011.04.002",
+      "title": "Discussion on \u201cCombined heat and power economic dispatch by harmony search algorithm\u201d by A. Vasebi et al., International Journal of Electrical Power and Energy ",
+      "container": "International Journal of Electrical Power &amp; Energy Systems",
+      "year": 2011,
+      "volume": "33",
+      "issue": "7",
+      "page": "1348",
+      "article": null,
+      "authors": "Geem Zong Woo"
+    }
+  ],
+  "pdmsurvey": [
+    {
+      "doi": "10.24093/awej/vol8no4.11",
+      "title": "Integrating Local Knowledge into Language Learning: A Study on the Your Language My Culture (YLMC) Project",
+      "container": "Arab World English Journal",
+      "year": 2017,
+      "volume": "8",
+      "issue": "4",
+      "page": "167-182",
+      "article": null,
+      "authors": "Nambiar Radha; bt Anawar Nurul"
+    },
+    {
+      "doi": "10.54554/jacta.2022.04.01.002",
+      "title": "Analysis of IoT Botnets using Machine Learning Technique",
+      "container": "Journal of Advanced Computing Technology and Application (JACTA)",
+      "year": 2022,
+      "volume": "4",
+      "issue": "1",
+      "page": null,
+      "article": null,
+      "authors": "Abdullah Raihana Syahirah; Mohd Sukor Helwa Nabilah; Othman Nur Fadzilah; Anawar Syarulnaziah; Ayop Zakiah"
+    },
+    {
+      "doi": "10.1109/iceeict62016.2024.10534382",
+      "title": "Machine Learning Techniques for Predicting Ovarian Cancer in its Early Stages Using Biomarkers",
+      "container": "2024 6th International Conference on Electrical Engineering and Information &amp;amp; Comm",
+      "year": 2024,
+      "volume": null,
+      "issue": null,
+      "page": "1257-1262",
+      "article": null,
+      "authors": "Alam Mir Jafikul; Anawar Jannat-E; Mohi Uddin Khandaker Mohammad; Rahman Md. Hasibur; Rahman Md. Mahbubur"
+    },
+    {
+      "doi": "10.1007/s44174-023-00078-9",
+      "title": "A Novel Approach Utilizing Machine Learning for the Early Diagnosis of Alzheimer's Disease",
+      "container": "Biomedical Materials &amp; Devices",
+      "year": 2023,
+      "volume": "1",
+      "issue": "2",
+      "page": "882-898",
+      "article": null,
+      "authors": "Uddin Khandaker Mohammad Mohi; Alam Mir Jafikul; Jannat-E-Anawar; Uddin Md Ashraf; Aryal Sunil"
+    },
+    {
+      "doi": "10.1016/s1002-0160(15)30046-1",
+      "title": "Biochar: An Emerging Panacea for Remediation of Soil Contaminants from Mining, Industry and Sewage Wastes",
+      "container": "Pedosphere",
+      "year": 2015,
+      "volume": "25",
+      "issue": "5",
+      "page": "654-665",
+      "article": null,
+      "authors": "ANAWAR Hossain M.; AKTER Farjana; SOLAIMAN Zakaria M.; STREZOV Vladimir"
+    },
+    {
+      "doi": "10.31235/osf.io/3hn4c",
+      "title": "Integrating Local Knowledge into Language Learning: A Study on the Your Language My Culture (YLMC) Project",
+      "container": "",
+      "year": 2017,
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "article": null,
+      "authors": "Journal Arab World English; Nambiar Radha M.K.; Anawar Nurul Amalina bt"
+    }
+  ],
+  "syncprob": [
+    {
+      "doi": "10.1109/access.2019.2953499",
+      "title": "A Survey on Digital Twin: Definitions, Characteristics, Applications, and Design Implications",
+      "container": "IEEE Access",
+      "year": 2019,
+      "volume": "7",
+      "issue": null,
+      "page": "167653-167671",
+      "article": null,
+      "authors": "Barricelli Barbara Rita; Casiraghi Elena; Fogli Daniela"
+    },
+    {
+      "doi": "10.1109/haxd70072.2026.11620820",
+      "title": "An Interactive Digital Twin for the Simulation of Smart Home Devices",
+      "container": "2026 2nd International Conference on Human-AI Interaction and Experience Design (HAXD)",
+      "year": 2026,
+      "volume": null,
+      "issue": null,
+      "page": "17-22",
+      "article": null,
+      "authors": "Guizzardi Davide; Barricelli Barbara Rita; Fogli Daniela"
+    },
+    {
+      "doi": "10.3390/fi16060208",
+      "title": "Enabling End-User Development in Smart Homes: A Machine Learning-Powered Digital Twin for Energy Efficient Management",
+      "container": "Future Internet",
+      "year": 2024,
+      "volume": "16",
+      "issue": "6",
+      "page": "208",
+      "article": null,
+      "authors": "Cotti Luca; Guizzardi Davide; Barricelli Barbara Rita; Fogli Daniela"
+    },
+    {
+      "doi": "10.1109/access.2020.2971576",
+      "title": "Human Digital Twin for Fitness Management",
+      "container": "IEEE Access",
+      "year": 2020,
+      "volume": "8",
+      "issue": null,
+      "page": "26637-26664",
+      "article": null,
+      "authors": "Barricelli Barbara Rita; Casiraghi Elena; Gliozzo Jessica; Petrini Alessandro; Valtolina Stefano"
+    },
+    {
+      "doi": "10.1007/978-3-658-45924-6_7",
+      "title": "Media and More: History, Historical Learning, and Interactive Testimonies in a Digitalized Age",
+      "container": "Holocaust Education \u2013 Historisches Lernen \u2013 Menschenrechtsbildung",
+      "year": 2025,
+      "volume": null,
+      "issue": null,
+      "page": "125-134",
+      "article": null,
+      "authors": "Barricelli Michele"
+    },
+    {
+      "doi": "10.1145/3656650.3656708",
+      "title": "A Digital Twin to Enhance Energy Consumption Awareness in a Smart Home",
+      "container": "Proceedings of the 2024 International Conference on Advanced Visual Interfaces",
+      "year": 2024,
+      "volume": null,
+      "issue": null,
+      "page": "1-3",
+      "article": null,
+      "authors": "Barricelli Barbara Rita; Cotti Luca; Fogli Daniela; Guizzardi Davide; Pigoli Matteo"
+    }
+  ]
+}

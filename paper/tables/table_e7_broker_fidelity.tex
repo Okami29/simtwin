@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering\small\setlength{\tabcolsep}{4pt}
+\caption{E7 broker fidelity. The same 20-device fleet, the same topics and the same message objects, run through a real Mosquitto~2.1.2 broker on loopback and through the in-process transport. QoS~1 blocks on \texttt{PUBACK}, which applies back-pressure and keeps the twin fresh; QoS~0 is fire-and-forget, so the simulated clock outruns the broker and staleness grows by an order of magnitude. The broker path is lossless over TCP at both QoS levels: the configured loss is an additive impairment the in-process model applies, not a property of the broker.}
+\label{tab:e7}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}llrrrrrrrr@{}}
+\toprule
+Transport & QoS &Cfg.\ loss & Gen. & Deliv. & Deliv.\ (\%) & Lat.\ mean (ms) & Lat.\ max (ms) & Stale p95 (s) & Stale max (s) \\
+\midrule
+Broker & 0 & 0.00 & 2400 & 2400 & 100.00 & 51,594.5 & 101,950.0 & 15.10 & 18.05 \\
+Broker & 0 & 0.30 & 2400 & 2400 & 100.00 & 48,892.5 & 93,950.0 & 11.65 & 15.65 \\
+Broker & 1 & 0.00 & 2400 & 2400 & 100.00 & 3.8 & 1,000.0 & 1.20 & 1.95 \\
+Broker & 1 & 0.30 & 2400 & 2400 & 100.00 & 2.1 & 1,000.0 & 0.95 & 1.95 \\
+In-process & 0 & 0.00 & 2400 & 2400 & 100.00 & 0.0 & 0.0 & 0.90 & 0.95 \\
+In-process & 0 & 0.30 & 2400 & 1703 & 70.96 & 0.0 & 0.0 & 4.95 & 7.95 \\
+In-process & 1 & 0.00 & 2400 & 2400 & 100.00 & 0.0 & 0.0 & 0.90 & 0.95 \\
+In-process & 1 & 0.30 & 2400 & 1703 & 70.96 & 0.0 & 0.0 & 4.95 & 7.95 \\
+\bottomrule
+\end{tabular}}
+\end{table}
