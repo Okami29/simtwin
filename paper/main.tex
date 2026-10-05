@@ -1,4 +1,4 @@
-\documentclass[preprint,12pt,authoryear]{elsarticle}
+\documentclass[preprint,12pt,authoryear,nopreprintline]{elsarticle}
 % ---------------------------------------------------------------------------
 % SimTwin preprint.  Self-contained: compile with
 %     tectonic paper/main.tex
@@ -19,7 +19,9 @@
 \graphicspath{{figures/}}
 
 \newcommand{\smt}{SimTwin}
-\journal{Journal of Open Source Research Software}
+% preprints.org requires publisher and journal names removed from a
+% manuscript using a journal template: the nopreprintline class option
+% suppresses elsarticle's "Preprint submitted to <journal>" footer.
 
 \begin{document}
 
@@ -41,48 +43,25 @@ communication impairment}
 \begin{abstract}
 Digital-twin research on additive-manufacturing (AM) fleets needs experiments in
 which the physical process, the communication channel and the twin's
-synchronisation state can all be manipulated and measured independently.
-Existing tools cover fragments of this: discrete-event factory simulators ignore
-the physics of the print, thermal and process models of a single machine ignore
-the network, and networked-control benchmarks have no plant.
-We present \smt{}, an open-source Python simulator that couples
-(i) a three-node lumped-parameter thermal plant with proportional--integral
-heater control, an additive power model and a road-geometry deposition model,
-(ii) a finite-state job and health machine per device,
-(iii) an explicit message-level transport with latency, jitter, loss,
-duplication, per-device disconnection, broker-wide outage, replay queues and
-staleness-based discarding, and
-(iv) a twin registry that maintains \emph{reported}, \emph{desired},
-\emph{configuration} and \emph{connectivity} aspects separately and is written
-only by delivered messages.
-Faults are injected as \emph{mechanisms} --- multiplicative changes to heater
-efficiency, thermal conductance, parasitic heat load, controller gain, extrusion
-scale, motor power, sensor bias and sensor noise, plus terminal job
-interruption --- never as scripted telemetry labels, so fault signatures emerge
-from the dynamics.
-A seed-spawning scheme gives bit-level reproducibility: two runs at the same
-seed produce byte-identical telemetry (SHA-256 match), and a change of seed
-changes it.
-We report seven experiments on a single 11-core laptop:
-scalability to 1\,000 printers at 88\,643 device-steps\,s$^{-1}$ and a real-time
-factor of 88.6;
-telemetry throughput from 686 to 70\,363\,msg\,s$^{-1}$ over a 240-fold sampling
-sweep;
-delivery ratios that track the configured loss rate to within 0.05 percentage
-points while 95th-percentile twin staleness grows from 0.99\,s to 6.99\,s;
-outage sweeps in which resynchronisations grow from 0 to 324\,942;
-and fault separability in which 10 of 11 injected fault families reach
-Cohen's $|d|\ge 1.45$ on at least one observable channel, with
-bed-heater failure at $|d|=3.68$ on measured power;
-and a broker-fidelity study in which the same messages traverse a real
-Mosquitto broker, showing that QoS~1 back-pressure holds 95th-percentile twin
-staleness at 1.2\,s while fire-and-forget QoS~0 lets it grow 12.6-fold to 15.1\,s.
-Together these give a measurable, citable baseline for twin-synchronisation
-quality of service and for mechanism-grounded fault-signature separability in
-networked AM fleets.
+synchronisation state can be manipulated and measured independently; existing
+tools cover only fragments.
+SimTwin is an open-source Python simulator that couples a lumped-parameter
+thermal plant with proportional--integral heater control, a per-device job and
+health state machine, an explicit message-level transport with latency, jitter,
+loss, duplication, outage and staleness-based discarding, and a twin registry
+written only by delivered messages.
+Faults are injected as mechanisms acting on the plant, not as scripted telemetry
+labels, so fault signatures emerge from the dynamics, and seeding gives
+byte-identical telemetry.
+Seven experiments report scalability to 1\,000 printers, throughput to
+70\,363\,msg\,s$^{-1}$, twin staleness rising from 0.99\,s to 6.99\,s with loss,
+10 of 11 fault families separable at Cohen's $|d|\ge1.45$, and QoS~1 holding
+95th-percentile staleness at 1.2\,s on a real broker where QoS~0 lets it grow
+12.6-fold.
 \end{abstract}
 
 \begin{keyword}
+\nopagebreak[4]
 digital twin \sep additive manufacturing \sep fused deposition modeling \sep
 fleet simulation \sep fault injection \sep industrial IoT \sep MQTT \sep
 age of information \sep reproducibility
@@ -94,7 +73,8 @@ age of information \sep reproducibility
 \S\ref{sec:related} positions the work, \S\ref{sec:model} gives the model and
 \S\ref{sec:architecture} the implementation, \S\ref{sec:determinism} the
 reproducibility contract, \S\ref{sec:eval} the seven experiments, and
-\S\ref{sec:limitations}--\S\ref{sec:conclusion} what they mean and do not mean.
+\S\ref{sec:limitations}--\S\ref{sec:conclusion} what they mean, and what they
+do not.
 
 Fused deposition modelling (FDM/FFF) fleets are becoming a networked,
 instrumented production setting: tens to hundreds of machines report telemetry
@@ -960,22 +940,42 @@ table in this paper.
 N.S.: Conceptualization, Methodology, Software, Validation, Formal analysis,
 Investigation, Writing---original draft, Writing---review \& editing,
 Visualization.
+A.K.: Conceptualization, Software, Validation, Investigation,
+Writing---review \& editing, Resources.
 
-\section*{Declaration of competing interest}
-The author reports financial interests in G3D, a 3D-printer and
-additive-manufacturing company, and in Versec LLC, an automation and
-technology-development studio. The author declares no competing financial interest
-in the results reported in this paper.
+\section*{Conflicts of Interest}
+N.S. is co-founder and Chief Technology Officer of G3D LLC, a 3D-printer and
+additive-manufacturing company, and founder of Versec LLC, an automation and
+technology-development studio. A.K. is affiliated with G3D LLC. G3D manufactures
+the class of FDM/FFF equipment that \smt{} models, so the authors have a
+professional interest in the adoption of the tool and a financial interest in a
+company that may benefit from it. Against this: \smt{} models generic FDM/FFF
+kinematics and thermodynamics and depends on no proprietary G3D hardware, design
+data or trade secret; the simulator, experiment drivers and all result tables are
+released under the MIT licence; every figure and table in this paper is
+regenerated from the deposited artefacts; and no qualitative conclusion reported
+here changes if the G3D-derived parameter defaults are replaced by the generic
+defaults documented in the configuration files. The authors declare no other
+competing financial interest.
 
 \section*{Funding}
 This research did not receive any specific grant from funding agencies in the
 public, commercial, or not-for-profit sectors.
 
+\section*{Data Availability Statement}
+The simulator source, the experiment drivers, the per-experiment result tables,
+the dataset manifest and the bibliography-verification records are released at
+\url{https://github.com/Okami29/simtwin} (tag \texttt{v0.1.1}) and archived with a
+persistent identifier on Zenodo. Every figure and table in this paper is
+generated from that archived artefact by the scripts in \texttt{experiments/}, and
+all runs are seeded, so every number reported here can be regenerated from the
+deposited configurations.
+
 \section*{Generative-AI use statement}
 Machine-assisted tooling was used for literature retrieval, Crossref
 verification scripting, code scaffolding and drafting support.
 All scientific decisions, model design, experiment design, interpretation and the
-final bibliography audit are the author's responsibility, and every citation was
+final bibliography audit are the authors' responsibility, and every citation was
 verified against Crossref as described in Section~\ref{sec:limitations}.
 
 \bibliographystyle{plainnat}
